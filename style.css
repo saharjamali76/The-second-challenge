@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "openSans";
+  src: url(font/OpenSans.woff) format(woff),
+    url(font/OpenSans.woff2) format(woff2);
+}
+body {
+  background-image: url("img/iPhone-12-in-hand-with-display-on.jpg");
+  background-color: rgba(0, 0, 0, 0.733);
+  background-blend-mode: darken;
+  margin: 20px;
+  font-family: "openSans";
+}
+
+a:link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 25px;
+  padding-left: 12px;
+  text-align: center;
+}
+a:hover {
+  color: #4062bb;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#icon {
+  padding-left: 155px;
+  padding-right: 255px;
+  margin: 100px;
+}
+article {
+  text-align: center;
+  padding-top: 110px;
+}
+p {
+  color: #4062bb;
+  font-size: 15px;
+  font-family: "openSans";
+  letter-spacing: 9px;
+  margin: 15px;
+  padding-top: 70px;
+  padding-bottom: 5px;
+}
+button {
+  background-color: #3f6de1;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border: #3f6de1;
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 2px;
+}
+#button {
+  background-color: rgba(63, 109, 225, 0);
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border: #3f6de1;
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 2px;
+}
+h1 {
+  font-size: 72px;
+  color: #fff;
+  margin: 15px;
+  padding: 5px;
+}
